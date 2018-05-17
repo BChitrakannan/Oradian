@@ -1,0 +1,10 @@
+SCENARIO: Profile
+META-DATA: {"description":"Profile Page","author":["CK"],"groups":["SMOKE", "Regression"]}
+	
+	Given customer launches the session 'env.baseurl'
+	Then customer logs in with '${login.valid.user_name}' and '${login.valid.password}'
+	And system verifies if the customer is logged in
+	Then customer navigates to Profile Page
+	
+END
+

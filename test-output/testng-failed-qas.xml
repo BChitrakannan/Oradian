@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Complete Suite">
+  <test name="Login Functionality">
+    <method-selectors>
+      <method-selector>
+        <script language="beanshell">
+          <![CDATA[testngMethod.getMethodName().equalsIgnoreCase("SQL Injection")]]>
+        </script>
+      </method-selector>
+    </method-selectors>
+    <parameter name="include" value="{&#039;groups&#039;:[&#039;Regression&#039;]}"/>
+    <parameter name="scenario.file.loc" value="./scenarios/login.bdd"/>
+    <classes>
+      <class name="com.qmetry.qaf.automation.step.client.text.BDDTestFactory"/>
+    </classes>
+  </test> <!-- Login Functionality -->
+  <test name="Home Page">
+    <method-selectors>
+      <method-selector>
+        <script language="beanshell">
+          <![CDATA[testngMethod.getMethodName().equalsIgnoreCase("Create Client")]]>
+        </script>
+      </method-selector>
+    </method-selectors>
+    <parameter name="include" value="{&#039;groups&#039;:[&#039;Regression&#039;]}"/>
+    <parameter name="scenario.file.loc" value="./scenarios/createclient.bdd"/>
+    <classes>
+      <class name="com.qmetry.qaf.automation.step.client.text.BDDTestFactory"/>
+    </classes>
+  </test> <!-- Home Page -->
+</suite> <!-- Complete Suite -->

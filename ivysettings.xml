@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<ivysettings>
+	<settings defaultResolver="qaf" />
+	<resolvers>
+		<chain name="qaf">
+			<ibiblio name="central" m2compatible="true" />
+			<ibiblio name="QAF" m2compatible="true"
+				root="https://qmetry.github.io/qaf/dist" />
+			<ibiblio name="jai" m2compatible="true"
+				root="https://repository.jboss.org/nexus/content/repositories/thirdparty-releases" />
+				
+		</chain>
+	</resolvers>
+</ivysettings>

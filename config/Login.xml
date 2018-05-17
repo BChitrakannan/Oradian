@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+ 
+<suite name="Oradian" verbose="0">
+
+	<test name="Login Functionality" enabled="true">
+	<parameter name="scenario.file.loc" value="./scenarios/login.bdd"></parameter>
+		<classes>
+			<class name="com.qmetry.qaf.automation.step.client.text.BDDTestFactory" />		
+			
+		</classes>
+	</test>
+	
+	
+</suite>

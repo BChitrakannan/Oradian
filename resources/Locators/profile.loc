@@ -1,0 +1,5 @@
+profile.link.hamburger ={\"locator\":\"//a[@href='/user/profile/235']//i\",\"desc\":\"Profile link\"}
+profile.page.user.name = {\"locator\":\"//h2[contains(text(),'User:')]//strong\",\"desc\":\"Username display\"}	
+profile.page.basicinfo = {\"locator\":\"//h2[contains(text(),'Basic')]\",\"desc\":\"Basic Info display\"}
+profile.page.status ={\"locator\":\"//td[contains(text(),'Status')]\",\"desc\":\"Status display\"}
+profile.page.status.result ={\"locator\":\"//td[contains(text(),'Active')]\",\"desc\":\"Status result\"}

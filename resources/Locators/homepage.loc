@@ -1,0 +1,21 @@
+homepage.filter ={\"locator\":\"//i[@id='filter-button']\",\"desc\":\"Filter\"}
+homepage.user.loc.type = {\"locator\":\"//div[@class='modal hide fade in']//select[@id='userLevelTypeSelect']\",\"desc\":\"User Type\"}
+homepage.modal.cancel = {\"locator\":\"//div[@class='modal hide fade in']//*[@id='dashboardFilterCancelButton' and @class='btn' and contains(text(),'Cancel')]\",\"desc\":\"Cancel Modal\"}
+homepage.modal.submit = {\"locator\":\"//div[@class='modal hide fade in']//*[@id='submitFilterAction' and @class='btn btn-primary' and contains(text(),'OK')]\",\"desc\":\"Submit Modal\"}
+homepage.modal.form.err={\"locator\":\"//div[@class='fm_error_msg']\",\"desc\":\"Form error\"}
+homepage.user.org.node = {\"locator\":\"//select[@id='userLevelSelect']\",\"desc\":\"User Type\"}
+homepage.user.org.node = {\"locator\":\"//span[contains(text(),'ORG NODE 1')]\",\"desc\":\"User Type\"}
+homepage.activity.stream ={\"locator\":\"//a[@class='activity-item-user activity-item-author']\",\"desc\":\"Activity Stream\"}
+
+
+
+
+
+
+
+
+
+
+
+
+

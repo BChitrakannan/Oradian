@@ -1,0 +1,37 @@
+SCENARIO: Home Page 
+META-DATA: {"description":"Welcome to Home Page","author":["CK"],"groups":["SMOKE", "Regression"]}
+	
+	Given customer launches the session 'env.baseurl'
+	Then customer logs in with '${login.valid.user_name}' and '${login.valid.password}'
+	And system verifies if the customer is logged in
+	Then Test All the links
+	Then user clicks on the filter button
+	And customer closes the browser
+	
+END
+
+SCENARIO: Asserting Submit and Cancel in Homepage Modal 
+META-DATA: {"description":"Submit and Cancel","author":["CK"],"groups":["SMOKE"]}
+	
+	Given customer launches the session 'env.baseurl'
+	Then customer logs in with '${login.valid.user_name}' and '${login.valid.password}'
+	And system verifies if the customer is logged in
+	Then user clicks on the filter button
+	Then user clicks on submit without selecting the required field
+	And user clicks on the cancel button
+	And customer closes the browser
+	
+END
+
+SCENARIO: Asserting Report generation by Organisation structure in Homepage Modal 
+META-DATA: {"description":"Report generation by Organisation structure","author":["CK"],"groups":["SMOKE", "Regression"]}
+	
+	Given customer launches the session 'env.baseurl'
+	Then customer logs in with '${login.valid.user_name}' and '${login.valid.password}'
+	And system verifies if the customer is logged in
+	Then user clicks on the filter button
+	And customer verifies the Report Generation for 'Head Office' and 'ORG NODE 1'	
+	
+	
+	
+END

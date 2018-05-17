@@ -1,0 +1,32 @@
+<root>
+    <!-- data for login test -->
+    <login>
+        <valid>
+            <user_name>bchitrakannan</user_name>
+            <password>kreso123!</password>
+        </valid>
+        <javascript>
+            <user_name>;alert("Hello! I am an alert box!!");</user_name>
+            <password>;alert("Hello! I am an alert box!!");</password>
+            
+        </javascript>
+        <invalid1>
+            <user_name>bchitr    akannan </user_name>
+            <password>kr  eso123! </password>
+        </invalid1>
+        
+        <invalid2>
+            <user_name>     </user_name>
+            <password>      </password>
+        </invalid2>
+        <invalid3>
+            <user_name>dskdjkjsdhkdsh</user_name>
+            <password>kreso123! </password>
+        </invalid3>
+        
+       <invalid3>
+            <user_name>bchitrakannan</user_name>
+            <password>sdksdfjk@!@# </password>
+        </invalid3>
+    </login>
+</root>

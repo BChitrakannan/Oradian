@@ -1,0 +1,45 @@
+SCENARIO: Screen Lock
+META-DATA: {"description":"Screen Lock","author":["CK"],"groups":["SMOKE", "Regression"]}
+	
+	Given customer launches the session 'env.baseurl'
+	Then customer logs in with '${login.valid.user_name}' and '${login.valid.password}'
+	And system verifies if the customer is logged in
+	Then customer locks the screen
+	
+	
+END
+
+SCENARIO: Screen unlock with correct password
+META-DATA: {"description":"Screen Unlock","author":["CK"],"groups":["SMOKE", "Regression"]}
+	
+	Given customer launches the session 'env.baseurl'
+	Then customer logs in with '${login.valid.user_name}' and '${login.valid.password}'
+	And system verifies if the customer is logged in
+	Then customer locks the screen
+	And customer unlocks the screen using 'valid' password '${login.valid.password}'
+	
+	
+END
+
+SCENARIO: Screen tries to unlock with Incorrect password
+META-DATA: {"description":"Screen Unlock","author":["CK"],"groups":["SMOKE", "Regression"]}
+	
+	Given customer launches the session 'env.baseurl'
+	Then customer logs in with '${login.valid.user_name}' and '${login.valid.password}'
+	And system verifies if the customer is logged in
+	Then customer locks the screen
+	And customer unlocks the screen using 'Invalid' password '${login.invalid1.password}'
+	
+	
+END
+
+SCENARIO: idle system
+META-DATA: {"description":"Screen Unlock","author":["CK"],"groups":["SMOKE", "Regression"]}
+	
+	Given customer launches the session 'env.baseurl'
+	Then customer logs in with '${login.valid.user_name}' and '${login.valid.password}'
+	And system verifies if the customer is logged in
+	And user leaves the system idle
+	Then customer unlocks the screen using 'valid' password '${login.valid.password}'
+
+END

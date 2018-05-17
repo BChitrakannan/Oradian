@@ -1,0 +1,57 @@
+SCENARIO: Successful Login
+META-DATA: {"description":"Successful Login","author":["CK"],"groups":["SMOKE", "Regression"]}
+	
+	Given customer launches the session 'env.baseurl'
+	Then customer logs in with '${login.valid.user_name}' and '${login.valid.password}'
+	And system verifies if the customer is logged in
+	Then customer logs out
+	And customer closes the browser
+	
+END
+
+SCENARIO: Unsuccessful Login 1
+META-DATA: {"description":"Unsuccessful Login","author":["CK"],"groups":["SMOKE", "Regression"]}
+	
+	Given customer launches the session 'env.baseurl'
+	Then customer logs in with '${login.invalid1.user_name}' and '${login.invalid1.password}'
+	And system verifies error message for invalid credentials
+	
+	
+END
+
+SCENARIO: Unsuccessful Login 2
+META-DATA: {"description":"Unsuccessful Login","author":["CK"],"groups":["SMOKE"]}
+	
+	Given customer launches the session 'env.baseurl'
+	Then customer logs in with '${login.invalid2.user_name}' and '${login.invalid2.password}'
+	And system verifies error message for invalid credentials
+	
+END
+
+SCENARIO: Unsuccessful Login 3
+META-DATA: {"description":"Unsuccessful Login","author":["CK"],"groups":["SMOKE"]}
+	
+	Given customer launches the session 'env.baseurl'
+	Then customer logs in with '${login.invalid3.user_name}' and '${login.invalid3.password}'
+	And system verifies error message for invalid credentials
+	
+END
+
+SCENARIO: Unsuccessful Login 4 
+META-DATA: {"description":"Unsuccessful Login","author":["CK"],"groups":["SMOKE"]}
+	
+	Given customer launches the session 'env.baseurl'
+	Then customer logs in with 'bchitrakannan' and 'sdksdfjk@!@# '
+	And system verifies error message for invalid credentials
+	
+END
+
+SCENARIO: SQL Injection 
+META-DATA: {"description":"Entering java script code","author":["CK"],"groups":["SMOKE","Regression"]}
+	
+	Given customer launches the session 'env.baseurl'
+	Then customer logs in with '${login.javascript.user_name}' and '${login.javascript.password}'
+	And system verifies error message for invalid credentials
+	Then The captcha should be displayed
+	
+END

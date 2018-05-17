@@ -1,0 +1,31 @@
+login.logo ={\"locator\":\"//img[@class='login-logo']\",\"desc\":\"Login Logo\"}
+login.welcome.msg = {\"locator\":\"//h2[@class='welcome-msg']\",\"desc\":\"Welcome Message\"}
+login.username= {\"locator\":\"//input[@placeholder='Username']\",\"desc\":\"UserName\"}
+login.password= {\"locator\":\"//input[@placeholder='Password']\",\"desc\":\"password\"}
+login.submit= {\"locator\":\"//button[text()='Sign in']\",\"desc\":\"password\"}
+login.captcha= {\"locator\":\"//div[@class='login-input-wrapper captcha-div']\",\"desc\":\"password\"}
+login.user.verification.hamburger= {\"locator\":\"//a[@class='btn dropdown-toggle']\",\"desc\":\"Logged in User dropdown\"}
+login.user.verification.dashboard= {\"locator\":\"//a[@href='/dashboard']//span[text()=' Dashboard']\",\"desc\":\"Logged in User dashboard\"}
+login.user.logout= {\"locator\":\"//a[contains(text(),'Logout')]//i\",\"desc\":\"logout\"}
+login.user.errmsg= {\"locator\":\"//ul[@class='fm_error_msg']\",\"desc\":\"Error message invalid login\"}
+login.user.searchbox= {\"locator\":\"//input[@id='globalsearch']\",\"desc\":\"Searchbox	\"}
+login.screen.lock= {\"locator\":\"//a[@onclick='lockScreen(false)']\",\"desc\":\"Lock screen	\"}
+login.screen.lock.welcomeback= {\"locator\":\"//fieldset//h2\",\"desc\":\"Lock Screen Verification	\"}
+screen.unlock.password={\"locator\":\"//input[@type='password']\",\"desc\":\"Lock password	\"}
+screen.unlock.submit={\"locator\":\"//button[@type='submit']\",\"desc\":\"Lock submit	\"}
+screen.unlock.logout={\"locator\":\"//a[@class='btn btn-danger']\",\"desc\":\"Lock Logout	\"}
+screen.unlock.err={\"locator\":\"//li[text()='Wrong password']\",\"desc\":\"Unlock error message\"}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

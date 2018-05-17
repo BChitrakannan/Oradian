@@ -1,0 +1,30 @@
+create.client.menu ={\"locator\":\"//a[@class='dropmenu']//i[@class='fa fa-plus-square-o']\",\"desc\":\"Create Client\"}
+create.client.individual ={\"locator\":\"//a[@class='submenu' and @href='/client/individual/create' and text()='Individual']\",\"desc\":\"Individual Client\"}
+create.client.label ={\"locator\":\"//h1[text()='Create Client']\",\"desc\":\"Individual Client\"}
+create.client.combobox ={\"locator\":\"//div[@class='Select-input']//input[@role='combobox']\",\"desc\":\"Gender Combo\"}
+create.client.gender={\"locator\":\"//div[@data-qa-element-id='gender']\",\"desc\":\"Male\"}
+create.client.female={\"locator\":\"//div[@data-qa-element-id='gender']//input[@aria-activedescendant='react-select-2--option-1']\",\"desc\":\"Male\"}
+create.client.firstName = {\"locator\":\"//input[@name='firstName']\",\"desc\":\"First Name\"}
+create.client.lastName={\"locator\":\"//input[@name='lastName']\",\"desc\":\"Last Name\"}
+create.client.dob={\"locator\":\"//div[@data-qa-element-id='dateOfBirth']//input[@placeholder='dd/mm/yyyy' and @class='DatePicker--Input']\",\"desc\":\"DOB\"}
+create.client.dobactual={\"locator\":\"//div[@data-qa-element-id='dateOfBirth']//input[@placeholder='dd/mm/yyyy' and @class='DatePicker--Input' and @value='14/04/1990']\",\"desc\":\"DOB\"}
+create.client.street={\"locator\":\"//input[@name='street1']\",\"desc\":\"Street\"}
+create.client.city={\"locator\":\"//input[@name='city']\",\"desc\":\"City\"}
+create.client.country={\"locator\":\"//input[@name='country']\",\"desc\":\"Country\"}
+create.client.post={\"locator\":\"//input[@name='postCode']\",\"desc\":\"Post\"}
+create.client.phone={\"locator\":\"//input[@name='optionalFields.businessPhone']\",\"desc\":\"Phone\"}
+create.client.branch={\"locator\":\"//div[@data-qa-element-id='hierarchySelect.branch']\",\"desc\":\"Branch\"}
+create.client.submit={\"locator\":\"//button[@type='submit' and @class='boundForm__Button--1vSm0 btn btn-success']\",\"desc\":\"Submit\"}
+create.client.pending={\"locator\":\"//span[text()='Pending Approval']\",\"desc\":\"Pending\"}
+
+
+
+
+
+
+
+
+
+
+
+

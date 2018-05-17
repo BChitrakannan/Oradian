@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given customer launches the session 'env.baseurl'</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>Navigated to the URL</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then customer logs in with 'bchitrakannan' and 'kreso123!'</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>Login Attempt made</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And system verifies if the customer is logged in</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Customer navigated to home page successfullly</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then Create Individual 'Male' client</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected Verifying the successful navigation present : Actual Verifying the successful navigation present</div><div  class="pass"><span class="pass-label">P </span>Expected Asserting the presence of Pending approval present : Actual Asserting the presence of Pending approval present</div></div></div>]]>
+    </line>
+  </reporter-output>
+  <suite name="Oradian" duration-ms="21928" started-at="2018-05-17T20:18:09Z" finished-at="2018-05-17T20:18:31Z">
+    <groups>
+      <group name="Regression">
+        <method signature="scenarios.CreateClient.bdd.Create Client()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" name="Create Client" class="com.qmetry.qaf.automation.step.client.Scenario"/>
+      </group> <!-- Regression -->
+      <group name="SMOKE">
+        <method signature="scenarios.CreateClient.bdd.Create Client()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" name="Create Client" class="com.qmetry.qaf.automation.step.client.Scenario"/>
+      </group> <!-- SMOKE -->
+    </groups>
+    <test name="Create Client" duration-ms="21928" started-at="2018-05-17T20:18:09Z" finished-at="2018-05-17T20:18:31Z">
+      <class name="com.qmetry.qaf.automation.step.client.Scenario">
+        <test-method status="PASS" signature="setupSuit(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="Create Client" name="setupSuit" is-config="true" duration-ms="20" started-at="2018-05-18T01:48:09Z" finished-at="2018-05-18T01:48:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@18078bef]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuit -->
+        <test-method status="PASS" signature="setupTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="Create Client" name="setupTest" is-config="true" duration-ms="3" started-at="2018-05-18T01:48:09Z" finished-at="2018-05-18T01:48:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@18078bef]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="Create Client" name="setup" is-config="true" duration-ms="0" started-at="2018-05-18T01:48:09Z" finished-at="2018-05-18T01:48:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@18078bef]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Create Client()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="Create Client" name="Create Client" duration-ms="21840" started-at="2018-05-18T01:48:09Z" description="Create Client" finished-at="2018-05-18T01:48:31Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given customer launches the session 'env.baseurl'</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>Navigated to the URL</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then customer logs in with 'bchitrakannan' and 'kreso123!'</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>Login Attempt made</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And system verifies if the customer is logged in</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Customer navigated to home page successfullly</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then Create Individual 'Male' client</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected Verifying the successful navigation present : Actual Verifying the successful navigation present</div><div  class="pass"><span class="pass-label">P </span>Expected Asserting the presence of Pending approval present : Actual Asserting the presence of Pending approval present</div></div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Create Client -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="Create Client" name="setupMethod" is-config="true" duration-ms="0" started-at="2018-05-18T01:48:09Z" finished-at="2018-05-18T01:48:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.Scenario.scenario()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@18078bef]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="Create Client" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-05-18T01:48:31Z" finished-at="2018-05-18T01:48:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@18078bef]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Create Client status=SUCCESS method=scenarios.CreateClient.bdd.Create Client()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given customer launches the session 'env.baseurl'</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>Navigated to the URL</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then customer logs in with 'bchitrakannan' and 'kreso123!'</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>Login Attempt made</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And system verifies if the customer is logged in</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Customer navigated to home page successfullly</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then Create Individual 'Male' client</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected Verifying the successful navigation present : Actual Verifying the successful navigation present</div><div  class="pass"><span class="pass-label">P </span>Expected Asserting the presence of Pending approval present : Actual Asserting the presence of Pending approval present</div></div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="Create Client" name="afterClass" is-config="true" duration-ms="0" started-at="2018-05-18T01:48:31Z" finished-at="2018-05-18T01:48:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@18078bef]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="Create Client" name="afterTest" is-config="true" duration-ms="50" started-at="2018-05-18T01:48:31Z" finished-at="2018-05-18T01:48:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@18078bef]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuit(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="Create Client" name="afterSuit" is-config="true" duration-ms="2" started-at="2018-05-18T01:48:31Z" finished-at="2018-05-18T01:48:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@18078bef]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuit -->
+      </class> <!-- com.qmetry.qaf.automation.step.client.Scenario -->
+    </test> <!-- Create Client -->
+  </suite> <!-- Oradian -->
+</testng-results>

@@ -1,0 +1,45 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+ 
+<suite name="Regression" verbose="0">
+	
+
+
+	<test name="Login Functionality" enabled="true">
+	<parameter name="scenario.file.loc" value="./scenarios/login.bdd"></parameter>
+		<classes>
+			<class name="com.qmetry.qaf.automation.step.client.text.BDDTestFactory" />		
+			<parameter name="include" value="{'groups':['Regression']}"/>
+		</classes>
+	</test>
+	<test name="Home Page" enabled="true">
+	<parameter name="scenario.file.loc" value="./scenarios/homepage.bdd"></parameter>
+		<classes>
+			<class name="com.qmetry.qaf.automation.step.client.text.BDDTestFactory" />		
+			<parameter name="include" value="{'groups':['Regression']}"/>
+		</classes>
+	</test>
+	<test name="Profile" enabled="true">
+	<parameter name="scenario.file.loc" value="./scenarios/profile.bdd"></parameter>
+		<classes>
+			<class name="com.qmetry.qaf.automation.step.client.text.BDDTestFactory" />		
+			<parameter name="include" value="{'groups':['Regression']}"/>
+		</classes>
+	</test>
+	<test name="Screen Lock" enabled="true">
+	<parameter name="scenario.file.loc" value="./scenarios/ScreenLock.bdd"></parameter>
+		<classes>
+			<class name="com.qmetry.qaf.automation.step.client.text.BDDTestFactory" />		
+			<parameter name="include" value="{'groups':['Regression']}"/>
+		</classes>
+	</test>
+	
+	<test name="Create Client" enabled="true">
+	<parameter name="scenario.file.loc" value="./scenarios/CreateClient.bdd"></parameter>
+		<classes>
+			<class name="com.qmetry.qaf.automation.step.client.text.BDDTestFactory" />		
+			<parameter name="include" value="{'groups':['Regression']}"/>
+		</classes>
+	</test>
+	
+</suite>
